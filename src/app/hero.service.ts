@@ -9,7 +9,7 @@ import { Hero } from './hero';
 export class HeroService {
 	
   private headers = new Headers({'Content-Type': 'application/json'});
-  private heroesUrl = 'https://hoxwi.com/Wi/angularjs/candidate-list';  // URL to web api
+  private heroesUrl = 'https://hoxwi.com/Wi/AngularJS/candidate-list';  // URL to web api
   
   constructor(private http: Http) { }
   
